@@ -1990,6 +1990,10 @@ def hdl_wid_152(_: WIDParams):
     return False
 
 
+def hdl_wid_154(_: WIDParams):
+    pass
+
+
 def hdl_wid_304(params: WIDParams):
     MMI.reset()
     MMI.parse_description(params.description)
